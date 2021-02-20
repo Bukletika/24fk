@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@font-face {
+  font-family: 'Panton';
+  font-weight: bold;
+  font-style: normal;
+  src: url('./Panton-Bold.woff') format('woff'),
+       url('./Panton-Bold.ttf') format('truetype'),
+       url('./Panton-Bold.eot?#iefix') format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'Panton';
+  font-weight: 600;
+  font-style: normal;
+  src: url('./Panton-SemiBold.woff') format('woff'),
+       url('./Panton-SemiBold.ttf') format('truetype'),
+       url('./Panton-SemiBold.eot?#iefix') format('embedded-opentype');
+
+}
+
+@font-face {
+  font-family: 'Panton';
+  font-weight: normal;
+  font-style: normal;
+  src: url('./Panton-Regular.woff') format('woff'),
+       url('./Panton-Regular.ttf') format('truetype'),
+       url('./Panton-Regular.eot?#iefix') format('embedded-opentype');
+}

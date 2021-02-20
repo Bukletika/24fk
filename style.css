@@ -1,0 +1,256 @@
+.page {
+  font-family: 'Panton', Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  background-color: #f0f0f2;
+  height: 100%;
+  min-height: 100%;
+  color: #333;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 12px 0;
+  background: #2d2e34;
+  z-index: 50;
+}
+
+.header__container {
+  max-width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.header__logo {
+  height: 38px;
+  padding: 10px 0;
+}
+
+.logo__link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.logo__img {
+  display: block;
+  object-fit: contain;
+  height: 100%;
+  width: auto;
+}
+
+.header__menu {
+  padding: 10px 0;
+}
+
+.header-menu__links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu__links-item {
+  display: block;
+  font-size: 16px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  color: #b2b2b2;
+  line-height: 2.5;
+  font-weight: 500;
+  margin-right: 60px;
+}
+
+.header-menu__links-item:last-child {
+  margin-right: 0;
+}
+
+.header-menu__link {
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  opacity: .8;
+}
+
+.header-menu__links-item:hover .header-menu__link {
+  opacity: 1;
+}
+
+.header-menu__link_active {
+  opacity: 1;
+}
+
+.header__langs {
+  margin: 0;
+  padding: 10px 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__lang {
+  display: block;
+  font-size: 16px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  line-height: 2.5;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+.header__lang-link {
+  color: #fff;
+  text-decoration: none;
+  opacity: .8;
+}
+
+.header__lang-link_active {
+  text-decoration: underline;
+  opacity: 1;
+}
+
+.header__lang-link:hover {
+  opacity: 1;
+}
+
+.main_margin_top {
+  margin-top: 110px;
+}
+
+.section {
+  box-sizing: border-box;
+}
+
+.section_size_narrow {
+  max-width: 1320px;
+  margin: 25px auto;
+  padding: 0 15px;
+}
+
+.section__title {
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 0 40px 0;
+  color: #333;
+}
+
+.news-items {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(600px , 1fr));
+}
+
+.news-item {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 250px 1fr;
+  background-color: #fff;
+}
+
+.news-item__date {
+  color: rgba(0,0,0,.5);
+  margin: 0 0 15px 0;
+}
+
+.news-item__title {
+  margin: 0 0 15px 0;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000;
+}
+
+.news-item__content {
+  padding: 25px 15px 25px 0;
+}
+
+.news-item__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .4s ease;
+}
+
+.news-item__image:hover {
+  transform: scale(1.03)
+}
+
+.news-item__link {
+  text-decoration: none;
+  display: block;
+  transition: opacity .4s ease;
+  overflow: hidden;
+}
+
+.news-item__link:hover {
+  opacity: .7;
+}
+
+
+
+
+
+
+
+.partners__title {
+  font-size: 30px;
+  margin: 0 0 35px 0;
+  text-align: left;
+}
+
+.partners__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 32px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.partners__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.partners__description {
+  font-family: 'Roboto',sans-serif;
+}
+
+.partners__description a{
+  color: #000;
+  border-bottom: 1px solid rgba(0,0,0,.3);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.partners__description a:hover {
+  border-bottom: none;
+  opacity: .7;
+}
+
+.footer {
+  background: #1e1f24;
+}
+
+
