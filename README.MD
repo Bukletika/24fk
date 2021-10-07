@@ -6,3 +6,6 @@
 1. Наименование классов по БЭМ
 2. Технология Flexbox
 3. Технология CSS Grid
+
+## Адрес фронтенда
+[bukletika.github.io/24fk/](https://bukletika.github.io/24fk/)
